@@ -30,12 +30,16 @@ h3 {
 #nav {
     background-color: coral;
     height: 40px;
+    display: flex;
+    flex-direction: row;
 }
 #left {
-    float: left;
+    align-items: flex-start;
+    flex-grow:5;
 }
 #right {
-    float: right;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 #dashboard {
     width: 200px;
